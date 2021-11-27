@@ -25,39 +25,104 @@
 			</div>
 		</div>
 
-<div class="modal fade profile-options-modal" id="profileOptions" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	  <div class="modal-dialog" role="document">
-	    <div class="modal-content">
+		<div class="modal fade profile-options-modal" id="profileOptions" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
 
-	      <div class="modal-header">
-	        <h5 class="modal-title">Opciones</h5>
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	          <span aria-hidden="true">&times;</span>
-	        </button>
-	      </div>
+			      <div class="modal-header">
+			        <h5 class="modal-title">Opciones</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
 
-	      <div class="modal-body">
-	        <ul class="profile-options-list">
-	        	<li>
-	        		<a href="#"><i class="fas fa-user"></i> Mi perfil</a>
-	        	</li>
-	        	<li>
-	        		<a href="#"><i class="fas fa-map-marker-alt"></i> Mis direcciones</a>
-	        	</li>
-	        	<li>
-	        		<a href="#"><i class="fas fa-credit-card"></i> Mis tarjetas</a>
-	        	</li>
-	        	<li>
-	        		<a href="#" class="text-danger"><i class="fas fa-times-circle"></i> Cerrar sesión</a>
-	        	</li>
-	        </ul>
-	      </div>
-	   
-	    </div>
-	  </div>
-	</div>
+			      <div class="modal-body">
+			        <ul class="profile-options-list">
+			        	<li>
+			        		<a href="#"><i class="fas fa-user"></i> Mi perfil</a>
+			        	</li>
+			        	<li>
+			        		<a href="#"><i class="fas fa-map-marker-alt"></i> Mis direcciones</a>
+			        	</li>
+			        	<li>
+			        		<a href="#"><i class="fas fa-credit-card"></i> Mis tarjetas</a>
+			        	</li>
+			        	<li>
+			        		<a href="#" class="text-danger"><i class="fas fa-times-circle"></i> Cerrar sesión</a>
+			        	</li>
+			        </ul>
+			      </div>
+			   
+			    </div>
+			  </div>
+			</div>
 
 	</header>
+
+	<main class="main">
+		
+		<div class="container">
+			<div class="search-container">
+				<form>
+					<input type="text" name="searchInput" id="searchInput">
+					<button type="button" class="btn btn-primary btn-block">Buscar</button>
+				</form>
+			</div>
+			<div class="products-list-container">
+				<ul>
+					<li>
+						<a href="#">
+							<div class="product-image">
+							<img src="img/foto1.jpg" alt="">
+						</div>
+						<div class="product-info">
+							<div class="product-info-inner">
+							<div class="tags">
+								<span>Pagar</span>
+							</div>
+							<h3>Tenemos montañas de contenido</h3>
+							</div>
+							<p class="product-price"><span>$</span>1</p>
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="product-image">
+							<img src="img/foto3.jpeg" alt="">
+						</div>
+						<div class="product-info">
+							<div class="product-info-inner">
+							<div class="tags">
+								<span>Pagar</span>
+							</div>
+							<h3>Tú escoges el tiempo de tu suscripción</h3>
+							</div>
+							<p class="product-price"><span>$</span>1</p>
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="product-image">
+							<img src="img/foto4.jpg" alt="">
+						</div>
+						<div class="product-info">
+							<div class="product-info-inner">
+							<div class="tags">
+								<span>Pagar</span>
+							</div>
+							<h3>Solo pagas el día que usas la app</h3>
+							</div>
+							<p class="product-price"><span>$</span>1</p>
+						</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</main>
 
 	<script src="js/jquery.js"></script>
 	<script src="js/popper.js"></script>
